@@ -1,0 +1,148 @@
+
+
+	body {
+		background-image: url(../img/js_woodslats.jpg);
+		background-repeat:repeat;
+		background-attachment:fixed;
+		background-position:left; 
+	}
+	.headerwrapper {
+		background-color: rgba(54, 11, 11, .6);
+	}
+	div#header-fixed {
+		position: fixed; top:0px; margin:auto; z-index:100000; width:100%; display: inline-block;
+	} 
+	.menuwrapper {
+		background-color: rgba(54, 11, 11, .6);
+	}
+	.aboutwrapper {
+		background-color: rgba(54, 11, 11, .6);
+	}
+	.blogwrapper {
+		background-color: rgba(54, 11, 11, .6);
+	}
+	#logofirst {
+		font-family: 'Coda', cursive; font-weight: 700; font-size: 28pt;
+		color: #669999;
+		padding: 20px 0px 0px 20px;
+		letter-spacing: 0.07em;
+	}
+	#logosecond {
+		font-family: 'Coda', cursive; font-weight: 700; font-size: 28pt;
+		color: #996600;
+		padding: 20px 0px 0px 0px;
+		letter-spacing: 0.07em;
+	}
+	#page1 {
+		padding: 0px 0px 0px 0px;
+	}
+	#logolarge {
+		padding: 150px 0px 0px 0px;
+	}
+	#info {
+		font-family: 'Coda', cursive; font-weight: 500; font-size: 18pt;
+		font-size: 13.5pt;
+		color: #ffffff;
+		padding-top: 105px;
+		padding-bottom: 5px;
+		letter-spacing: 0.07em;
+	}
+	#hhtime {
+		padding-top: 10px;
+		padding-bottom: 200px;
+		padding-left: 3px;
+		font-family: 'Oswald', sans-serif;
+		font-size: 15pt;
+		color: #ffffff;
+		line-height: 1.2em;
+	}
+	#hhspecials {
+		padding-left: 3px;
+		font-family: 'Oswald', sans-serif;
+		font-size: 12pt;
+		color: #ffffff;
+	}
+	.navbar li {
+		display: inline-block;
+		margin: 0px 0px 0px 0px;
+		padding: 0px;
+	}
+	#nav {
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		font-size: 12pt;
+		color: #ffffff;
+	}
+	.socialmedia {
+		padding: 0px 0px 0px 100px;
+	}
+	.socialmedia li {
+		padding: 10px 10px 10px 10px;
+	}
+	#logo {
+		padding-left: 0px;
+		padding-top: 13px;
+	}
+	#menu {
+		height: 1000px;
+	}
+	#about {
+		height: 1000px;
+	}
+	#blog {
+		height: 1000px;	
+	}
+	.menu-sub {
+		padding-left: 32px;
+		padding-top: 60px;
+		padding-bottom: 50px;
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		font-size: 12pt;
+		color: #ffffff;
+		line-height: 15pt;
+	}
+	
+	h5 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 16pt;
+		color: #ffffff;
+		margin-bottom: 30px;
+	}
+	h6 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 13pt;
+		color: #f6c678;
+		margin-top: 7px;
+	}
+	.salads {
+		padding: 0px 0px 0px 85px;
+	}
+	.hotplates {
+		padding: 0px 0px 0px 100px;
+	}
+	#page2 {
+		background-image: url(../img/menubkgd.jpg);
+		background-attachment: fixed;
+		background-position: center top; 
+		padding: 100px 100px 100px 100px;
+	}
+	#page3 {
+		background-image: url(../img/aboutbkgd.jpg);
+		background-attachment: fixed;
+		background-position: center top; 
+	}
+	#abouttext {
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		font-size: 12pt;
+		color: #ffffff;
+		margin: 500px 500px 500px 500px;
+	}
+	#page4 {
+		background-image: url(../img/gallerybkgd.jpg);
+		background-attachment: fixed;
+		background-position: center top; 
+	}
+	
+	*{border:1px solid red;}

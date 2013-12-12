@@ -1,98 +1,243 @@
-<!DOCYPE html>
-<html>
-	<Head>
-		<title>Project 2</title>
-		
-		<style type="text/css">
-	
-		
-			h1 {}
-			.menutitle {
-				font-family: avenir;
-				color: #35c9ed;
-				font-size:35px;
-				}
-				
-			h2{}
-			.menusub {
-				font-family: avenir;
-				color: black;
-				font-size: 25px;
-			}
-			h3{}
-			.menuitem {
-				font-family: avenir;
-				color: black;
-				font-size: 20px;
-				
-			}
-			h4{}
-			.menudescriptions {
-				font-family: avenir;
-				color: black;
-				font-size: 15px;
-			}
-			
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
 
-		</style>
-	</Head>
-	<body>
-		<h1 class="menutitle">Menu</h1>
-		<p></p>
-		<h2 class="menusub">Hot Appetizers</h2>
-		<h3 class="menuitem">Indian Pancakes $5.50
-			<h4 class="menudescriptions">
-				Roti canai or traditional Malaysian-Indian pancakes served with spicy curry potato sauce.
-		<h3 class="menuitem">Grilled Chicken Satay $5.95
-			<h4 class="menudescriptions">
-				Skewers of Chicken with slightly spicy peanut sauce		
-		<h3 class="menuitem">Saigon Spring Roll $5.50
-			<h4 class="menudescriptions">
-				Fresh crabmeat, pork and clear noodles, deep-fried and served
-				with Vietnamese dipping sauce	
-		<h3 class="menuitem">Vegetable Spring Roll $3.95
-			<h4 class="menudescriptions">
-				Mixed vegetable wrapped with rice paper, fried		
-		<h3 class="menuitem">Crabcake Pancakes $5.95
-			<h4 class="menudescriptions">
-				Pan-fried pancakes with crabmeat, scallions, served
-				with sweet and sour, gingerly flavor sauce		
-		<h3 class="menuitem">Spinach Dumpling $5.95
-			<h4 class="menudescriptions">
-				Stuffed with steamed chicken and vegetables.				
-				
-		<h3 class="menuitem">Dumpling $5.50
-			<h4 class="menudescriptions">
-				Chopped pork & mixed vegetables served with ginger
-				scallion sauce
-		<h3 class="menuitem">Vegetable Dumpling $5.95
-			<h4 class="menudescriptions">
-				Pan-fried chopped mixed vegetables served with ginger scallion sauce
-		<h3 class="menuitem">Crabmeat Rangoon $5.95
-			<h4 class="menudescriptions">
-				Fried wonton filled with crabmeat and cream cheese
-		<h3 class="menuitem">Vegetable Dumpling $5.95
-			<h4 class="menudescriptions">
-				Crispy wonton filled with chopped shrimp
-		<h3 class="menuitem">Calamari $7.50
-			<h4 class="menudescriptions">
-				Fried calamari served with homemade spicy miracle sauce
-		<h3 class="menuitem">Gado Gado Salad $6.50
-			<h4 class="menudescriptions">
-				Assorted crunchy steamed vegetables, tofu and fried cracker served
-				with peanut sauce
-		<h3 class="menuitem">Ball Tofu $5.50
-			<h4 class="menudescriptions">
-				Deep fried tofu served with honey peanut sauce
-		<h3 class="menuitem">Scallion Pancakes $4.95
-			<h4 class="menudescriptions">
-				Pan-fried pancakes with scallions, served with sweet and sour,
-				gingerly flavor sauce
-				
-				
-				</h3>
-			
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Hamilton Tavern</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/main.css">
 	
 
-	</body>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	<link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC|Oswald' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+	
+<div class="headerwrapper" id="header-fixed">
+
+		<ul class="navbar">
+		<li id="logofirst">
+		HAMILTON</li>
+		<li id="logosecond">
+		TAVERN</li>
+		<div id="nav">
+         <li><a class="scroll" href="#menu">Menu</a></li>
+         <li><a class="scroll" href="#about">About</a></li>
+         <li><a class="scroll" href="#blog">Blog</a></li>
+		 	</div> 
+		 <div class="socialmedia">
+		<li><a href="https://www.facebook.com/pages/Hamilton-Tavern/48972018757">
+		
+			<img src="img/facebook.png" id="fb"></a></li>
+
+		<li><a href="https://twitter.com/HamiltonTavern">
+		<img src="img/twitter.png" id="twitter"></a></li>
+
+		<li class="socialmedia"><a href="https://twitter.com/HamiltonTavern">
+		<img src="img/share.png" id="share"></a></li>
+
+		<li><a href="https://twitter.com/HamiltonTavern">
+		<img src="img/navi.png" id="navi"></a><//li>
+	</div>
+
+	</div>
+
+	</ul>
+
+
+<div id="page1">
+  <a id="home"></a>
+  <div class="container columns">
+  <img src="img/htlogo.png" id="logolarge">
+  <div id="info">
+  5517 Harford Road, Baltimore, MD<br>
+  Hours: Open 4:30 Daily<br>
+  Kitchen: 'til 10 pm Sun-Wed<br>
+  Thurs, Fri & Sat 'til 11
+  </div>
+  <div id="hhtime">
+  HAPPY HOUR 4:30-6:30pm 10pm-close<br>
+  $3 SELECT DRAFT//$2 ABITA BOTTLES//$3 RAIL DRINKS<br>
+  </div>
+  </div>
+<div id="page2">
+  <a id="menu"></a>
+    <div class="container columns">
+	<div class="menu-sub clearfix">
+	<div class="four columns">
+	<h5 id="munchies">
+	Munchies
+	</h5>
+	<h6>
+	Boh Battered O’s $8
+	</h6>
+	w/ spicy garlic sauce
+	
+	<h6>
+	Fried Dill Pickle 
+	Chips $6
+	</h6>
+	with zippy goat 
+	cheese sauce
+
+	<h6>
+	Savory Peach 
+	Tart $8
+	</h6>
+	carmelized onions, 
+	shallotsfresh peaches, 
+	honeyed walnuts 
+	whipped goat cheese
+
+	<h6>
+	Tavern "Tot"chos $8
+	</h6>
+	house made, with cheddar
+	pepperjack cheese sauce, 
+	smoked pickled jalepenos, 
+	lime sour cream
+
+	<h6>
+	Steamed Mussels $12
+	</h6>
+	with coconut milk, ginger, 
+	lime, Sriracha, cilantro,
+	pickled peppers
+
+	</div>
+	
+	<div class="four columns salads">
+	<h5 id="salads">
+	Salads
+	</h5>
+	
+	<h6>
+	House Salad $7
+	</h6>
+	with carrots, zucchini, 
+	red onions, & roasted 
+	garlic vinaigrette
+	
+	<h6>
+	Cherry Tomato & 
+	Watermelon Salad $8
+	</h6>
+	with crumbled feta cheese, 
+	arugula, & cumin-mint 
+	yogurt drizzle
+	
+	<h6>
+	Mediterranean Grilled 
+	Chicken Salad $12
+	</h6>
+	with roasted eggplant, olives, 
+	tomato, cucumber, red onion 
+	& house greens, & tossed with 
+	dilly lemon vinaigrette
+
+	<h6>
+	Thai Peanut Cold 
+	Noodle Salad $9
+	</h6>
+	with warm Sriracha glazed 
+	tofu, shiitake mushrooms, 
+	sugar snap peas, & cilantro,
+	</div>
+	
+	<div class="four columns hotplates">
+	<h5 id="hotplates">
+	Hot Plates
+	</h5>
+	
+	<h6>
+	Spicy Pork Belly Banh Mi $11
+	</h6>
+	with lime cabbage & carrots, cilantro, & Sriracha lime aioli on toasted baguette
+
+	<h6>Crispy Fried Fish Sandwich $11</h6>
+	with lettuce, tomato, cucumber & pickled garlic scape & 
+	horseradish rose sauce 
+	
+	<h6>House Made Veggie Burger $11</h6>
+	with arugula, red onion, & smoked tomato aioli
+	
+	<h6>Crosstown Burger $12</h6>
+	Roseda Farms beef, 
+	shredded iceberg lettuce, onion, & horseradish 
+	
+	<h6>Cherry Wood Smoked 
+	Roasted Pork Shoulder $15</h6>
+	Bourbon peach BBQ sauce, southern style braised greens
+	</div>
+	
+	</div>
+
+</div>
+</div>
+<div id="page3">
+  <a id="about"></a>
+  	<div id="abouttext">
+  	When you walk into Hamilton Tavern, you feel like you’re entering an early 20th-century farmhouse. Not only do you have to pull on a wooden scythe (minus the 		blade, of course) to open the door, but the interior has dark wood, high ceilings, and agricultural tools adorning the walls. Welcome to one of Hamilton’s newest 	additions to its ever-growing list of hip hot spots.
+  	</div>
+</div>
+
+</div>
+
+<div id="page4">
+  <a id="gallery"></a>
+    
+    
+</div>
+
+</div>
+
+	
+	
+</div>
+
+
+<script src="js/smooth-scroll.js"></script>
+</body>
+<!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
 </html>
