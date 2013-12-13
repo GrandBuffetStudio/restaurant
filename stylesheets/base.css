@@ -55,12 +55,12 @@
 /* #Typography
 ================================================== */
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-family: 'Holtwood One SC', serif; font-size: 22px; color:#330000; line-height: 2px; }
-	h2 { font-family: 'Oswald', sans-serif; font-size: 22px; color:#330000; line-height: 22px; }
-	h3 { font-family: 'Oswald', sans-serif; font-size: 16.5px; color:#330000; line-height: 25px; }
-	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-	h5 { font-size: 17px; line-height: 24px; }
-	h6 { font-size: 14px; line-height: 21px; }
+	h1 { font-family: 'Holtwood One SC', serif; font-size: 22px; color:#330000; line-height: 1.2; }
+	h2 { font-family: 'Oswald', sans-serif; font-size: 22px; color:#330000; line-height: 1.2; }
+	h3 { font-family: 'Oswald', sans-serif; font-size: 16.5px; color:#330000; line-height: 1.2; }
+	h4 { font-size: 21px; line-height: 1.2; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 1.2; }
+	h6 { font-size: 14px; line-height: 1.2; }
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; }

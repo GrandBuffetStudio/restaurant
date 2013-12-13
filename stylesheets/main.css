@@ -1,88 +1,93 @@
 
 
-	body {
-		background-image: url(../img/js_woodslats.jpg);
-		background-repeat:repeat;
-		background-attachment:fixed;
-		background-position:left; 
-	}
+
 	.headerwrapper {
-		background-color: rgba(54, 11, 11, .6);
+		background-color: rgba(80,23,2,0.79);
 	}
 	div#header-fixed {
 		position: fixed; top:0px; margin:auto; z-index:100000; width:100%; display: inline-block;
 	} 
 	.menuwrapper {
-		background-color: rgba(54, 11, 11, .6);
+		background-color: rgba(54, 11, 11);
 	}
-	.aboutwrapper {
-		background-color: rgba(54, 11, 11, .6);
+	
+	.logo {
+		font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 21pt; letter-spacing: 0.04em;
+		color: #699;
+		padding-top: 15px;
 	}
-	.blogwrapper {
-		background-color: rgba(54, 11, 11, .6);
+	
+	.logo strong {
+		font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 21pt; letter-spacing: 0.04em; 
+		color: #960;	
 	}
-	#logofirst {
-		font-family: 'Coda', cursive; font-weight: 700; font-size: 28pt;
-		color: #669999;
-		padding: 20px 0px 0px 20px;
-		letter-spacing: 0.07em;
-	}
-	#logosecond {
-		font-family: 'Coda', cursive; font-weight: 700; font-size: 28pt;
-		color: #996600;
-		padding: 20px 0px 0px 0px;
-		letter-spacing: 0.07em;
-	}
+	
+
 	#page1 {
 		padding: 0px 0px 0px 0px;
 	}
 	#logolarge {
 		padding: 150px 0px 0px 0px;
 	}
-	#info {
-		font-family: 'Coda', cursive; font-weight: 500; font-size: 18pt;
-		font-size: 13.5pt;
+	.info {
+		font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 18pt;
+		font-size: 16pt;
 		color: #ffffff;
-		padding-top: 105px;
-		padding-bottom: 5px;
-		letter-spacing: 0.07em;
+		letter-spacing: 0.03em;line-height: 25px;
+		margin-left: 77px;
+		padding-top: 30px;
 	}
-	#hhtime {
-		padding-top: 10px;
-		padding-bottom: 200px;
-		padding-left: 3px;
-		font-family: 'Oswald', sans-serif;
-		font-size: 15pt;
-		color: #ffffff;
-		line-height: 1.2em;
+	.info strong {
+		font-family: 'Oswald', sans-serif; font-weight: 200; font-size: 18pt;
+		font-size: 12pt;
+		color: #960;
+		letter-spacing: 0.05em; line-height: 12px;
+
 	}
 	#hhspecials {
 		padding-left: 3px;
 		font-family: 'Oswald', sans-serif;
 		font-size: 12pt;
 		color: #ffffff;
+		letter-spacing: 0.2em;
 	}
 	.navbar li {
 		display: inline-block;
 		margin: 0px 0px 0px 0px;
-		padding: 0px;
+		padding: 8px;
 	}
 	#nav {
 		color: white;
 		font-family: 'Oswald', sans-serif;
-		font-size: 12pt;
+		font-size: 15pt;
 		color: #ffffff;
+		margin: 15px 0px 0px 20px;
 	}
-	.socialmedia {
-		padding: 0px 0px 0px 100px;
+	#nav li {
+		padding-left: 15px;
+	}
+	#nav a {
+		color: #fff;
+	}
+	
+	#nav a:hover {
+		color: #960;
+	}
+	
+	.container .socialmedia {
+		float: right;
+		padding: 0;
+		margin-top: 5px;
 	}
 	.socialmedia li {
-		padding: 10px 10px 10px 10px;
+		padding-left: 5px;
+		padding-bottom: 1px;
 	}
 	#logo {
 		padding-left: 0px;
 		padding-top: 13px;
 	}
+/*
 	#menu {
 		height: 1000px;
 	}
@@ -92,6 +97,7 @@
 	#blog {
 		height: 1000px;	
 	}
+*/
 	.menu-sub {
 		padding-left: 32px;
 		padding-top: 60px;
@@ -121,23 +127,30 @@
 	.hotplates {
 		padding: 0px 0px 0px 100px;
 	}
+	
+	.pages {
+		min-height: 1000px;
+		padding: 100px 0;
+	}
+	
+	#page1 {
+		background-image: url(../img/hamiltonbkgd.jpg);
+		background-attachment: fixed;
+	}
 	#page2 {
 		background-image: url(../img/menubkgd.jpg);
 		background-attachment: fixed;
-		background-position: center top; 
-		padding: 100px 100px 100px 100px;
 	}
 	#page3 {
 		background-image: url(../img/aboutbkgd.jpg);
 		background-attachment: fixed;
-		background-position: center top; 
-	}
+	}	
 	#abouttext {
-		color: white;
 		font-family: 'Oswald', sans-serif;
-		font-size: 12pt;
-		color: #ffffff;
-		margin: 500px 500px 500px 500px;
+		font-size: 13pt;
+		color: #420718;
+		background-color: rgba(153,102,0,0.32); padding: 20px;
+		line-height: 20px;
 	}
 	#page4 {
 		background-image: url(../img/gallerybkgd.jpg);
@@ -145,4 +158,3 @@
 		background-position: center top; 
 	}
 	
-	*{border:1px solid red;}
