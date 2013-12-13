@@ -1,18 +1,10 @@
 
-	body {
-		background-image: url(../img/hamiltonbkgd.jpg);
-		background-attachment: fixed;
-	}
-
 
 	.headerwrapper {
-		background-color: rgba(80,23,2,0.79);
+		background-color: rgba(80,23,2,1);
 	}
-	div#header-fixed {
-		position: fixed; top:0px; margin:auto; z-index:100000; width:100%; display: inline-block;
-	} 
 	.mainpage {
-		padding: 150px 0px;
+		padding: 200px 0px;
 	}
 	
 	.affix {
@@ -25,7 +17,7 @@
 	
 	.affix .headerwrapper {
 		transition: background-color .3s linear;
-		-webkit-transition: background-color .3s linear;
+		-webkit-transition: background-color .7s linear;
 		background-color: rgba(80,23,2,1);
 	}
 	
@@ -36,17 +28,12 @@
 	.logo {
 		font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 21pt; letter-spacing: 0.04em;
 		color: #699;
-		padding-top: 15px;
+		padding-top: 20px;
 	}
 	
 	.logo strong {
 		font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 21pt; letter-spacing: 0.04em; 
 		color: #960;	
-	}
-	
-
-	#page1 {
-		padding: 0px 0px 0px 0px;
 	}
 	#logolarge {
 		padding: 0px;
@@ -76,14 +63,14 @@
 	.navbar li {
 		display: inline-block;
 		margin: 0px 0px 0px 0px;
-		padding: 8px;
+		padding: 0px 8px 0px 8px;
 	}
 	#nav {
 		color: white;
 		font-family: 'Oswald', sans-serif;
 		font-size: 15pt;
 		color: #ffffff;
-		margin: 15px 0px 0px 20px;
+		margin: 30px 0px 0px 20px;
 	}
 	#nav li {
 		padding-left: 15px;
@@ -121,16 +108,13 @@
 	}
 */
 	.menu-sub {
-		padding-left: 32px;
-		padding-top: 60px;
-		padding-bottom: 50px;
 		color: white;
 		font-family: 'Oswald', sans-serif;
 		font-size: 12pt;
 		color: #ffffff;
 		line-height: 15pt;
+		background-color: rgba(153,102,0,0.32); padding: 20px;
 	}
-	
 	h5 {
 		font-family: 'Oswald', sans-serif;
 		font-size: 16pt;
@@ -154,12 +138,16 @@
 		min-height: 1000px;
 		padding: 100px 0;
 	}
-
 	#page1 {
+		background-image: url(../img/hamiltonbkgd.jpg);
+		background-attachment: fixed;
+		padding: 0px 0px 0px 0px;
+	}
+	#page2 {
 		background-image: url(../img/menubkgd.jpg);
 		background-attachment: fixed;
 	}
-	#page2 {
+	#page3 {
 		background-image: url(../img/aboutbkgd.jpg);
 		background-attachment: fixed;
 	}	
@@ -170,9 +158,12 @@
 		background-color: rgba(153,102,0,0.32); padding: 20px;
 		line-height: 20px;
 	}
-	#page3 {
+	#page4 {
 		background-image: url(../img/gallerybkgd.jpg);
 		background-attachment: fixed;
 		background-position: center top; 
+	}
+	#page5 {
+		background-color: rgba (153, 102, 0, 1);
 	}
 	
