@@ -1,4 +1,8 @@
 
+	body {
+		background-image: url(../img/hamiltonbkgd.jpg);
+		background-attachment: fixed;
+	}
 
 
 	.headerwrapper {
@@ -7,6 +11,24 @@
 	div#header-fixed {
 		position: fixed; top:0px; margin:auto; z-index:100000; width:100%; display: inline-block;
 	} 
+	.mainpage {
+		padding: 150px 0px;
+	}
+	
+	.affix {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 100;
+	}
+	
+	.affix .headerwrapper {
+		transition: background-color .3s linear;
+		-webkit-transition: background-color .3s linear;
+		background-color: rgba(80,23,2,1);
+	}
+	
 	.menuwrapper {
 		background-color: rgba(54, 11, 11);
 	}
@@ -27,7 +49,7 @@
 		padding: 0px 0px 0px 0px;
 	}
 	#logolarge {
-		padding: 150px 0px 0px 0px;
+		padding: 0px;
 	}
 	.info {
 		font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 18pt;
@@ -132,16 +154,12 @@
 		min-height: 1000px;
 		padding: 100px 0;
 	}
-	
+
 	#page1 {
-		background-image: url(../img/hamiltonbkgd.jpg);
-		background-attachment: fixed;
-	}
-	#page2 {
 		background-image: url(../img/menubkgd.jpg);
 		background-attachment: fixed;
 	}
-	#page3 {
+	#page2 {
 		background-image: url(../img/aboutbkgd.jpg);
 		background-attachment: fixed;
 	}	
@@ -152,7 +170,7 @@
 		background-color: rgba(153,102,0,0.32); padding: 20px;
 		line-height: 20px;
 	}
-	#page4 {
+	#page3 {
 		background-image: url(../img/gallerybkgd.jpg);
 		background-attachment: fixed;
 		background-position: center top; 
