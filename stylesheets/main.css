@@ -42,16 +42,16 @@
 		padding: 0px;
 	}
 	.info {
-		font-family: 'Oswald', sans-serif; font-weight: 500; font-size: 18pt;
-		color: rgba(80,23,2,1);
+		font-family: 'oswald', sans-serif; font-weight: 700; font-size: 18pt;
+		color: #f6c678;
 		background-color: rgba(153,102,0,0.4); padding: 20px;
 		letter-spacing: 0.03em;line-height: 27px;
 		margin-left: 45px;
 		padding-top: 25px;
 	}
 	.info strong {
-		font-family: 'Oswald', sans-serif; font-weight: 200; font-size: 14pt;
-		color: rgba(80,23,2,1);
+		font-family: 'Oswald', sans-serif; font-weight: 300; font-size: 14pt;
+		color: #f6c678;
 		letter-spacing: 0.02em; line-height: 7px;
 	}
 	.maininfo {
